@@ -1,36 +1,41 @@
-public class Employee{
+public class Employee {
 
-	public static void main(String[]args){
+       	int idValue;
+    	String langValue;
 
-		Employee emp1 = new Employee();
-		compname("Asus");
-		emp1.empname("Raju","Apate");
-		emp1.empid(101);
-		System.out.println(emp1.emplang("java"));
+    public static void main(String[] args) {
 
-	}
+        compname("Asus");
 
-		public static void compname(String company){
-			System.out.println(company);
+        Employee emp1 = new Employee();
+        emp1.idValue = 101;
+        emp1.langValue = "java";
+        emp1.empname("Raju", "Spate");
 
-	}
+        Employee emp2 = new Employee();
+        emp2.idValue = 102;
+        emp2.langValue = "python";
+        emp2.empname("Sham", "lpate");
+	add(20.001,100000L);
+    }
 
-		public void empname(String fsname,String lsname){
-			System.out.println(fsname+" "+lsname);
-	
-	}
+    public static void compname(String company) {
+        System.out.println(company);
+    }
 
-		public void empid(int id){
+    public void empname(String fsname, String lsname) {
+        System.out.println(fsname + " " + lsname);
+        
+     
+        empid(idValue);
+        System.out.println(emplang(langValue));
+    }
 
-			System.out.println(id);
+    public void empid(int id) {
+        System.out.println(id);
+    }
 
-	}
-
-		public String emplang(String lang){
-
-			return lang;
-
-
-	}
-	
+    public String emplang(String lang) {
+        return lang;
+    }
 }
