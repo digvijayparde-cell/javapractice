@@ -1,3 +1,5 @@
+package Methods;
+
 public class BeginnerDemo {
 
     String studentName = "Digvijay";
@@ -16,6 +18,13 @@ public class BeginnerDemo {
 
         int totalMarks = addMarks(80, 85);
         System.out.println(totalMarks);
+
+        pkg_practice.Pkg_demo.marks(10, 20);
+
+        pkg_practice.Pkg_demo obj = new pkg_practice.Pkg_demo();
+        obj.name("Digvijay");
+        System.out.println(pkg_practice.Pkg_demo.id(21));
+        System.out.println(obj.dep("CSE"));
     }
 
     public void showWelcomeMessage() {
