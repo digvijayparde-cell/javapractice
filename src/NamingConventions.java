@@ -11,7 +11,7 @@ public class NamingConventions { // Class names always start with a Capital lett
 		
 		// Variables inside the main method use the same lowercase first rule
 		double userAccountBalance = 2500.75;
-		boolean isUserLoggedIn = true;
+//		boolean isUserLoggedIn = true;
 
 		// just printing stuff out to see if the code runs
 		System.out.println("--- Scratchpad Testing ---");
