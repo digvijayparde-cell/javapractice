@@ -16,6 +16,14 @@ public class CombinedExample {
 //		conditional
 		conditional();
 		
+		//relational
+		relational();
+		
+		// instanceof
+		inst();
+		
+		// ternary
+		ternary();
 		
 	}
 	
@@ -71,4 +79,18 @@ public class CombinedExample {
 			
 	
 }
+	public static void inst() {
+		
+		String gender = "other";
+		
+		System.out.println(gender instanceof String);
+		}
+	public static void ternary() {
+	    int speed = 90;
+	    
+	    // If speed is over 80, fine is 2000. Otherwise, fine is 0.
+	    int fine = (speed > 80) ? 2000 : 0;
+	    
+	    System.out.println("Your speeding fine is: Rs " + fine);
+	}
 }
