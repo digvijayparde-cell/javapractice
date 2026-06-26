@@ -7,6 +7,7 @@ public class TernaryPractice {
 		 task1Numbers();
 		task2Strings();
 		task3DataTypes();
+		finalBossTernary();
 	}
 	
 	public static void task1Numbers() {
@@ -49,5 +50,28 @@ public class TernaryPractice {
 		// float deliveryFee = ...
 		
 		// 2. Print your deliveryFee variable
+	}
+	
+	public static void finalBossTernary() {
+		System.out.println("\n--- FINAL BOSS: THE CHAR TIER ---");
+		int experienceYears = 6;
+		
+		
+		
+		// 1. Create a char variable named 'developerTier'.
+		// 2. Use a ternary operator to check if experienceYears is greater than or equal to 5.
+		//    If true, assign 'S' (for Senior). 
+		//    If false, assign 'J' (for Junior).
+		//    (Hint: Wrap your condition in optional brackets to keep it clean!)
+		
+		// YOUR CODE HERE:
+		
+		char developertier =  (experienceYears >= 5) ? 'S' : 'J';
+		
+		System.out.println("The tier for developer is"+" "+developertier);
+		
+		
+		// 3. Print the developerTier variable with a nice message like: "Developer Tier: " + developerTier
+		// YOUR CODE HERE:
 	}
 }
