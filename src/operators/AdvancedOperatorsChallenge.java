@@ -45,9 +45,10 @@ public class AdvancedOperatorsChallenge {
 		System.out.println("\n--- TASK 4: LOGICAL ---");
 		int clickCount = 0;
 
-		boolean condition = (5 > 10) && (++clickCount > 0);
+		boolean condition = 5 > 10;
 		
 		System.out.println("Condition output: " + condition);
 		System.out.println("Final Click Count (Did it skip?): " + clickCount); 
+		System.out.println(condition);
 	}
 }

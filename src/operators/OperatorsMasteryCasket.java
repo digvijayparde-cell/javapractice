@@ -34,10 +34,11 @@ public class OperatorsMasteryCasket {
 
 		// Crucial Rule: If the first half of a conditional OR (||) is TRUE, 
 		// Java skips evaluating the second half entirely because it already knows the whole thing is true!
-		boolean check = (10 > 2) || (++loopCounter > 10);
+		boolean check = 10 > 2;
 		
 		// Will loopCounter stay 5, or did it increment to 6? Fill in the blank below to find out!
 		System.out.println("Did it short-circuit? Final counter value: " + loopCounter);
+		System.out.println(check);
 	}
 
 	/**
