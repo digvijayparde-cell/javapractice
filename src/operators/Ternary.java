@@ -4,6 +4,8 @@ public class Ternary {
 
 	public static void main(String[]args) {
 		
+		
+		
 		int a = 39;
 		int b = 49;
 		
@@ -28,6 +30,15 @@ public class Ternary {
 	 int rank = 1;
 	 char grade = (rank == 1) ? 'A' : 'B';
 	 System.out.println(grade);
+	 
+	 result(90); 
+	}
+	
+	public static void result(int marks) {
+		
+		String result = marks > 35 ? "Pass" : "Fail" ;
+		
+		System.out.println(result);
 	}
 	
 	
