@@ -1,4 +1,4 @@
-package controlflow; // Make sure this matches your package name!
+package controlflow.ifelse; // Make sure this matches your package name!
 
 public class MovieTicket {
 	

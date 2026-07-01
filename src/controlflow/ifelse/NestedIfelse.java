@@ -1,4 +1,4 @@
-package controlflow;
+package controlflow.ifelse;
 
 public class NestedIfelse {
 
