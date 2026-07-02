@@ -2,8 +2,8 @@ package controlflow.ifelse;
 
 public class Login {
 	
-	String savedUsername;
-	String savedPassword;
+	public String savedUsername;
+	public String savedPassword;
 
 	public Login(String newUser, String newPass) {
 		savedUsername = newUser;
