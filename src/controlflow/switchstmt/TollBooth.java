@@ -1,11 +1,11 @@
-package controlflow;
+package controlflow.switchstmt;
 
 public class TollBooth {
 
 	public static void main(String[] args) {
 		
 		TollBooth v1 = new TollBooth();
-		v1.toolPrice("Car", false);
+		v1.toolPrice("Car", true);
 	}
 	
 	public void toolPrice(String vehicle, boolean isVIP) {
