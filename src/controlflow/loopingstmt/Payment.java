@@ -11,6 +11,6 @@ public class Payment {
 			double newsalary = salaries[i] + (salaries[i] * 0.10);
 			
 			System.out.println("Emp " + (i + 1) + newsalary);
-		}
+		}// ...
 	}
 }
