@@ -13,7 +13,7 @@ public class Demo {
 	public static void mg(int x) {
 		
 		
-		for(int i = dash = 1;i <= 100; i++, dash++, x++){
+		for(int i = dash = 1;i <= 100; ++i, dash++, x++){
 			
 			System.out.println("HELP!!");
 			System.out.println(dash);
