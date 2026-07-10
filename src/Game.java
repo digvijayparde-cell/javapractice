@@ -23,8 +23,18 @@ public class Game {
     public static void main(String[] args) {
         System.out.println("--- LEVEL 1 START ---");
         Monster normalEnemy = new Monster("Swamp Goblin", 50);
-        
-        System.out.println("\n--- LEVEL 10 BOSS FIGHT ---");
+        Game myGame = new Game();
+        myGame.level(normalEnemy,1);
+      
         Dragon boss = new Dragon("Eden Dragon", 10000, 500);
+        myGame.lev(boss,100);
     }
+    public void level(Monster m,int level) {
+    	
+    	System.out.println("its an "+" "+level+"level"+"Enemy");
+    }
+    public void lev(Dragon d,int level) {
+    	
+    	System.out.println("its an "+" "+level+"level"+"Enemy");
+}
 }
