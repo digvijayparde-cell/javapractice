@@ -5,8 +5,8 @@ public class Continuestmt {
 	public static void main(String[]args) {
 		
 //		even();
-		prime();
-		
+//		prime();
+		odd();
 	}
 	public static void even() {
 		
@@ -30,18 +30,23 @@ public class Continuestmt {
 				if(i % j == 0) {
 					
 					isPrime = false;
-				}
-			}
-			
-			if(isPrime) {
-				
-				System.out.println(i);
+					break;
 
 			}
+		}
 		}
 		
 	}
 	
+	public static void odd() {
+		
+		for(int i = 1 ; i <= 100 ; i++) {
+			
+			if(i % 2 != 0) {
+				System.out.println(i);
+			}
+		}
+	}
 	}
 	
 
