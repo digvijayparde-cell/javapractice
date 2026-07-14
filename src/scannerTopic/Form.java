@@ -90,5 +90,7 @@ public class Form {
 		System.out.println("clg: " + clg);
 		System.out.println("cgpa: " + cgpa);
 		System.out.println("wallet: " + wallet);
+		
+		// git push test
 	}
 }
