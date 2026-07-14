@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 public class Form {
 	
-	public static void main(String[] args) {
-		
-		Form std1 = new Form();
-		std1.application();
-		
-	}
+//	public static void main(String[] args) {
+//		
+//		Form std1 = new Form();
+//		std1.application();
+//		
+//	}
 	public void application() {
 		String name;
 		int age;
@@ -91,6 +91,12 @@ public class Form {
 		System.out.println("cgpa: " + cgpa);
 		System.out.println("wallet: " + wallet);
 		
-		// git push test
+		// git push testZ
+	}
+public static void main(String[] args) {
+		
+		Form std1 = new Form();
+		std1.application();
+		
 	}
 }
