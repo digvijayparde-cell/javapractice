@@ -15,5 +15,5 @@ class OverrideDemo {
     public static void main(String[] args) {
         Weapon myWeapon = new LaserRifle();
         myWeapon.fire(10);
-    }
+    }//
 }
