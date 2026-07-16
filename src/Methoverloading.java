@@ -2,8 +2,12 @@ public class Methoverloading{
 	
 	public static void main(String[]args) {
 		
+		//method overloading
 		what("modi ki galti");
 		what(69,29);
+		
+		//constructor overloading
+//		public Meth
 		
 	}
 	public static void what(String wh) {
