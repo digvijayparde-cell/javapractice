@@ -1,5 +1,16 @@
 public class Methoverloading{
 	
+	String greet;
+	int id;
+	
+	public Methoverloading(String greet) {
+        this.greet = greet;
+    }
+	 public Methoverloading(int id) {
+	       
+	        this.id = id;
+	 }
+	
 	public static void main(String[]args) {
 		
 		//method overloading
@@ -7,7 +18,12 @@ public class Methoverloading{
 		what(69,29);
 		
 		//constructor overloading
-//		public Meth
+		Methoverloading obj = new Methoverloading("hello");
+		Methoverloading obj1 = new Methoverloading(69);
+		
+		obj.how();
+		obj1.when();
+		
 		
 	}
 	public static void what(String wh) {
@@ -24,6 +40,17 @@ public class Methoverloading{
 		System.out.println(a+ b);
 		
 		}
+	}
+	
+	public void how() {
+		
+		System.out.println(greet);
+       
+	}
+	public void when() {
+		
+		 System.out.println(id);
+		
 	}
 	
 }
