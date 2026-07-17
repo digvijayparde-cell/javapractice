@@ -4,8 +4,8 @@ public class Continuestmt {
 
 	public static void main(String[]args) {
 		
-//		even();
-//		prime();
+		even();
+		prime();
 		odd();
 	}
 	public static void even() {
