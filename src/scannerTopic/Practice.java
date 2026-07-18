@@ -6,26 +6,28 @@ public class Practice{
 	
 	public static void main(String[]args) {
 		
-		// what i want to do is take dynamic values and pass it in methods parameters 
-		
-		Scanner  sc = new Scanner(System.in);
+		Practice p = new Practice();
+		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("Enter your Name : ");
-		String nam = sc.nextLine();
-		System.out.println("Enter yout ID : ");
+		
+		String name = sc.nextLine();
+		p.nam(name);
+		
+		System.out.println("Enter your ID : ");
+		
 		int id = sc.nextInt();
+		p.id(id);
+		
+		
 	}
 	
-	public static void name(String name) {
+	public void nam(String name) {
 		
-		Scanner  sc = new Scanner(System.in);
-		System.out.println("Enter your Name : ");
-		name = sc.nextLine();
-		System.out.println("My name is : "+" "+name);
-	}
-	public static void id(int id) {
+		System.out.println("Your name : "+ " "+name);
 		
-		System.out.println("My name ID is : "+" "+id);
+	}public void id(int id ) {
 		
+		System.out.println(id + 20);
 	}
 }
