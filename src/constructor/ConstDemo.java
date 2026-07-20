@@ -1,6 +1,6 @@
 package constructor;
 
-public class ConstDemo {
+public class ConstDemo{
 	
 	public ConstDemo() {
 		
@@ -8,9 +8,8 @@ public class ConstDemo {
 	}
 	public static void main(String[]args) {
 		
-		System.out.println("this is mainmethod");
+		System.out.println("THis is main method");
 		
 		ConstDemo obj = new ConstDemo();
 	}
-
 }
