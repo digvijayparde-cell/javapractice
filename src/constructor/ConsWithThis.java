@@ -25,17 +25,28 @@ public ConsWithThis() {
 		int d = sc.nextInt();
 		int f = sc.nextInt();
 		obj.add(d,f)	;
+		what(22);
 		
 	}public void add(int x,int y) {
 		
+		if(a== 10) {
 		System.out.println("this is the input from the addition from scanner");
 		System.out.println(x + y);
+		}
+		do {
 		System.out.println("this is the input from the constructor");
 		System.out.println(a + b);
-		
+		b++;
+		}while(b==20) ;
+			
 	}
 	public void add() {
 		
 		System.out.println("method overloading");
+	}
+	public static void what(int i) {
+		
+		System.out.println((i == 1)? "wha" : "how") ;
+		
 	}
 }
