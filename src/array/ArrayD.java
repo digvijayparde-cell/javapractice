@@ -18,6 +18,8 @@ public class ArrayD {
 		for(int i = 0;i< fix.length ;i++) {
 			
 			fix[i] = sc.nextInt();
+			
+			System.out.println(fix[i]);
 		}
 		System.out.println(Arrays.toString(fix));
 		
