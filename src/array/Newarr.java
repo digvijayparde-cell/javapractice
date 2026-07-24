@@ -13,6 +13,8 @@ public class Newarr {
 			System.out.println(ar[i]);
 			
 		}
+		ar[ar.length-1] = 34;
+		System.out.println(Arrays.toString(ar));
 		Scanner sc = new Scanner(System.in);
 		
 		ArrayList <Integer> num = new ArrayList<>();
